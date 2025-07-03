@@ -3,10 +3,10 @@ package lib;
 public class PasswordValidator {
 
     /**
-     * คุณจะต้องเขียน Javadoc ที่สมบูรณ์ที่นี่ในอนาคต
-     * เพื่ออธิบายกฎการทำงานของเมธอด
+     * ตรวจสอบความยากง่ายของ Password ที่เป็น String
      * @param password string ที่ต้องการตรวจสอบ
-     * @return PasswordStrength.INVALID อื่นๆ
+     * @return ส่งกลับความยากของรหัสหรือความถูกต้อง
+     * @throw IllegalArgumentException ถ้ารหัสผ่านมีค่า null หรือ empty
      */
     // TODO: แก้ไข return type ของเมธอดนี้ให้ถูกต้อง
     public static PasswordStrength validate(String password) { // Function Type ให้เป็น PasswordStrength 
